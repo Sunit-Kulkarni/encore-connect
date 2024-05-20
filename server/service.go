@@ -1,4 +1,4 @@
-package greet
+package server
 
 import (
 	"connectrpc.com/grpcreflect"
