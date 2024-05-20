@@ -5,8 +5,8 @@ import (
 	"log"
 	"net/http"
 
-	greetv1 "encore.app/gen/greet/v1"
-	"encore.app/gen/greet/v1/greetv1connect"
+	"buf.build/gen/go/sunny-buf/connect-starter/connectrpc/go/greet/v1/greetv1connect"
+	greetv1 "buf.build/gen/go/sunny-buf/connect-starter/protocolbuffers/go/greet/v1"
 
 	"connectrpc.com/connect"
 )
