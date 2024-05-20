@@ -1,0 +1,6 @@
+version: v2
+modules:
+  - path: proto
+    name: buf.build/sunny-buf/connect-starter
+deps:
+  - buf.build/googleapis/googleapis
