@@ -8,4 +8,7 @@ require (
 	google.golang.org/protobuf v1.34.1
 )
 
-require golang.org/x/text v0.15.0 // indirect
+require (
+	connectrpc.com/grpcreflect v1.2.0 // indirect
+	golang.org/x/text v0.15.0 // indirect
+)
