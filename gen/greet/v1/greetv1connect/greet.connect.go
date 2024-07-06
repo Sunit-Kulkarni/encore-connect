@@ -7,8 +7,8 @@ package greetv1connect
 import (
 	connect "connectrpc.com/connect"
 	context "context"
-	v1 "encore.app/gen/greet/v1"
 	errors "errors"
+	v1 "github.com/sunit-kulkarni/encore-connect/gen/greet/v1"
 	http "net/http"
 	strings "strings"
 )

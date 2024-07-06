@@ -4,7 +4,7 @@ import (
 	"connectrpc.com/grpcreflect"
 	"net/http"
 
-	"encore.app/gen/greet/v1/greetv1connect"
+	"github.com/sunit-kulkarni/encore-connect/gen/greet/v1/greetv1connect"
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/h2c"
 )
