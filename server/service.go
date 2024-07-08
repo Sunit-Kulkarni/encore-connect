@@ -23,7 +23,7 @@ func initService() (*Service, error) {
 	greeter := &GreetServer{}
 	mux := http.NewServeMux()
 	reflector := grpcreflect.NewStaticReflector(
-		"greet.v1.GreetService",
+		greetv1connect.GreetServiceName,
 	)
 	mux.Handle(grpcreflect.NewHandlerV1(reflector))
 	mux.Handle(grpcreflect.NewHandlerV1Alpha(reflector))
